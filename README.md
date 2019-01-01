@@ -22,7 +22,7 @@ If you see version,for example "6.4.1" that's good
 
 if not installed then
 
-> npm i gulp-v4
+> npm install gulp-cli -g
 ---
 ### Project launch instructions
 
