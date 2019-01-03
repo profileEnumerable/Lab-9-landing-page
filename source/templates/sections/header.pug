@@ -1,0 +1,22 @@
+header.header
+
+ .container
+  .logo
+   .logo__text CRYPTO
+   .sub__logo BTC
+  span 1 BTC = 32,097.23 
+  i.fas.fa-yen-sign
+  .raiting -0.14%
+  nav.nav
+  - var navItems = ['ABOUT','HELP','SIGN UP','SIGN IN']
+    each item in navItems 
+    if item === 'SIGN UP'
+     a.nav_link.active__link
+     else
+     a.nav__link(href="#")=item
+      
+    
+   
+   
+
+   
