@@ -1,0 +1,14 @@
+.hero {
+    padding: 270px 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Circe-Bold';
+    &__about {
+        font-size: 50px;
+    }
+    &__title {
+        padding: 0 140px 0 140px;
+        margin: 50px 0 50px 0;
+        font-size: 20px;
+    }
+}

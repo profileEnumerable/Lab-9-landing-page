@@ -1,5 +1,63 @@
-@import "../../global/fonts.scss";
-@import "../../global/vars.scss";
-* {
-    font-family: 'Circe-ExtraBold';
+.main__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+.main__header {
+    color: #ffffff;
+}
+
+a:hover,
+a:active,
+a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.raiting {
+    color: #ed6269;
+}
+
+.nav {
+    margin-left: auto;
+    transition: 0.3s;
+    &__link {
+        margin-right: 20px;
+    }
+    &__active__link {
+        border: 1px solid #f7f9ff;
+    }
+}
+
+header {
+    box-sizing: border-box;
+    background: cadetblue url('../images/bg1.png') center/cover no-repeat;
+    border-bottom: 1px solid;
+    height: 100vh;
+}
+
+.logo__text {
+    font-family: $main-bold-font;
+    font-size: 30px;
+    & span {
+        height: 17px;
+        width: 30px;
+        text-align: center;
+        position: absolute;
+        font-size: 12px;
+        background-color: #eb5a63;
+        border-radius: 2px;
+    }
+}
+
+.course {
+    margin: 0 20px 0 60px;
+}
+
+.raiting {
+    background: #f7f9ff;
 }

@@ -1,6 +1,9 @@
+@import "../global/fonts.scss";
+@import "../global/vars.scss";
+@import "../global/common.scss";
+@import "../global/base.scss";
+@import "../global/button.scss";
+@import "../global/sprite.scss";
+@import "../global/mixins.scss";
 @import "sections/header.scss";
-a {
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 10px;
-}
+@import "sections/hero.scss";

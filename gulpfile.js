@@ -55,13 +55,13 @@ gulp.task('clean', function del(cd) {
 
 //------------Copy fonts------------//
 gulp.task('copy:fonts', function() {
-    return gulp.src('.source/fonts/**/*.*')
+    return gulp.src('source/fonts/**/*.*')
         .pipe(gulp.dest('build/fonts'));
 });
 
 //------------Copy images------------//
 gulp.task('copy:images', function() {
-    return gulp.src('.source/images/**/*.*')
+    return gulp.src('source/images/**/*.*')
         .pipe(gulp.dest('build/images'));
 });
 
@@ -72,6 +72,7 @@ gulp.task('copy-all', gulp.parallel('copy:fonts', 'copy:images'));
 //------------Watchers ------------//
 gulp.task('watch', function() {
     gulp.watch('source/styles/**/*.scss', gulp.series('compile-sass'));
+    gulp.watch('source/global/**/*.scss', gulp.series('compile-sass'));
     gulp.watch('source/templates/**/*.pug', gulp.series('compile-pug'));
 })
 

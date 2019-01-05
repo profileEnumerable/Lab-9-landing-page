@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Circe-Bold';
+    padding: 7px 15px 7px 15px;
+    &__green {
+        color: #f7f9fc;
+        padding: 15px 70px 15px 70px;
+        background-color: #a3cd8c;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+    &__text__uppercase {
+        text-transform: uppercase;
+    }
+}
