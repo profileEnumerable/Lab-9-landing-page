@@ -1,0 +1,14 @@
+.reliability {
+    @include gradient(#38445f, #475d77);
+    padding: 50px 0 0 0;
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+    &__title {
+        color: #99a3ae;
+    }
+    &__image {
+        object-fit: cover;
+    }
+}

@@ -3,14 +3,19 @@
     border-radius: 40px;
     text-decoration: none;
     font-size: 14px;
-    font-family: 'Circe-Bold';
-    padding: 7px 15px 7px 15px;
+    font-family: $main-bold-font;
+    padding: 10px 20px 10px 20px;
     &__green {
         color: #f7f9fc;
         padding: 15px 70px 15px 70px;
         background-color: #a3cd8c;
         transition: 0.3s;
         font-size: 20px;
+    }
+    &__transparent {
+        border: 3px solid #a3cd8c;
+        color: #9ecd8c;
+        font-size: 16px;
     }
     &__text__uppercase {
         text-transform: uppercase;
