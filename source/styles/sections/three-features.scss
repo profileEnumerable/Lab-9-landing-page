@@ -1,0 +1,20 @@
+.features {
+    @include gradient(#465c77, #475c78);
+    border-bottom: 3px solid #4e637c;
+    text-align: center;
+    padding: 100px 0 70px 0;
+    &__header {
+        font-size: 19px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        width: 30%;
+    }
+}
