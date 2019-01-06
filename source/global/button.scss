@@ -3,7 +3,7 @@
     border-radius: 40px;
     text-decoration: none;
     font-size: 14px;
-    font-family: $main-bold-font;
+    font-family: $main-bold-font !important;
     padding: 10px 20px 10px 20px;
     &__green {
         color: #f7f9fc;

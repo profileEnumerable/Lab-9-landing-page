@@ -1,11 +1,5 @@
 .growth {
     @include gradient(#445270, #404a65);
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
     &__container>div {
         width: 40%;
     }

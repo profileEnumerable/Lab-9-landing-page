@@ -1,0 +1,23 @@
+.transactions {
+    @include gradient(#404a65, #3b4359);
+    td,
+    th {
+        padding: 10px;
+        border: 3px solid #4d556d;
+    }
+    ul {
+        font-size: 15px;
+    }
+    tr>td:nth-child(1) {
+        color: #7a9dd0;
+    }
+    tr>td:nth-child(2) {
+        color: #908d98;
+    }
+    tr>td:nth-child(3) {
+        color: #60b985;
+    }
+    ul>li:nth-child(2n) {
+        color: #908d98;
+    }
+}

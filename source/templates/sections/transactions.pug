@@ -1,5 +1,31 @@
+-var first_column_text= '1H9M945cNdgGaWRQDBk9M6v...';
+-var second_column_text= ['Less then minute ago','Less then minute ago','2 minutes ago','4 minutes ago','7 minutes ago'];
+-var third_column_text= '0.9456323 BTC';
+
 section.transactions
  .container
-  .transactions__container
+  .transactions__container.flex-container
    .transactions__table
+    h1.header__text LAST TRANSACTIONS
+    table
+     -for(var i = 0; i < 5;i++) 
+      tr
+       -for(var j = 0; j < 3;j++)
+        if j === 0 
+         td=first_column_text
+        else if  j===1
+         td=second_column_text[i]
+        else
+         td=third_column_text
+
    .transactions__news
+    .header__text NEWS
+      ul
+       li Invest BTC in peer-peer loans and get 19% with BTCIam.com
+       li BTClam 1 minute ago
+       li A spat between developers may split the digital currency
+       li Reddit 10 minutes ago 
+       li Bitcoin Wallet Blockchain.info His 4 Million User Mark
+       li CoinDesk 43 minutes ago
+       li Destinia: Bitcoin-Paying Customers Spend More on Travel
+       li CEXio 56 minutes ago

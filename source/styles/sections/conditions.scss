@@ -1,11 +1,5 @@
 .conditions {
     @include gradient(#4a5e79, #475472);
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
     &__container>div {
         width: 40%;
     }

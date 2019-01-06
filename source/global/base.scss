@@ -17,10 +17,15 @@ body {
 ul,
 li {
     list-style-type: none;
+    padding: 0;
 }
 
 section:not(.hero) {
-    padding: 150px 0 70px 0;
+    padding: 120px 0 70px 0;
     box-sizing: border-box;
     border-bottom: 3px solid #4e637c;
+}
+
+table {
+    border-collapse: collapse;
 }
