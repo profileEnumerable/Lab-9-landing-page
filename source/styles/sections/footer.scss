@@ -1,3 +1,26 @@
-footer {
-    background-color: aquamarine;
+.footer {
+    padding-top: 150px;
+    background-color: #3a4258;
+    &__top {
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    &__container {
+        display: flex;
+    }
+    &__copyright {
+        margin-left: auto;
+    }
+    &__bottom {
+        padding: 20px;
+        font-size: 12px;
+    }
+    &__link {
+        margin-right: 20px;
+    }
+    &__header {
+        margin: auto;
+        width: 405px;
+        padding-bottom: 30px;
+    }
 }

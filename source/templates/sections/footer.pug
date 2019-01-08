@@ -1,1 +1,14 @@
-footer 
+footer.footer
+  .footer__top.border__bottom
+   .container
+    .footer__header.header__text CRYPTO-STABLE WAY TO EARN BTC NOW
+    a.button.button__green.button__green.button__text__uppercase start earning
+
+  .footer__bottom
+    .container
+     .footer__container
+      .footer__link__container
+       -var footer_links = ['rules','comisson','conditions'];
+         each link in footer_links
+          a.footer__link.button__text__uppercase(href="#")=link    
+      .footer__copyright.button__text__uppercase &copy crypto 2015    
