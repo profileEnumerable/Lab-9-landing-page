@@ -5,7 +5,8 @@
 
 .header__text {
     font-family: $main-bold-font;
-    font-size: 30px;
+    font-size: 34px;
+    margin-top: 0;
 }
 
 .gray__title {
@@ -19,4 +20,15 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.gradient-border {
+    position: relative;
+    background: linear-gradient(0.25turn, #a3cd8c, #8db5b8, #7da3d7);
+    height: 5px;
+    z-index: -100;
+}
+
+.border__bottom {
+    border-bottom: 3px solid#56627e;
 }

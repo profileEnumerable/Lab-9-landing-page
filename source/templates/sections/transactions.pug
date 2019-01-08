@@ -1,4 +1,4 @@
--var first_column_text= '1H9M945cNdgGaWRQDBk9M6v...';
+-var first_column_text= '1H9M945cNdgGaWRQDBk9M6v1H9M945cNdgGaWRQDBk9M6v';
 -var second_column_text= ['Less then minute ago','Less then minute ago','2 minutes ago','4 minutes ago','7 minutes ago'];
 -var third_column_text= '0.9456323 BTC';
 
@@ -12,7 +12,8 @@ section.transactions
       tr
        -for(var j = 0; j < 3;j++)
         if j === 0 
-         td=first_column_text
+         td
+          div=first_column_text
         else if  j===1
          td=second_column_text[i]
         else
@@ -29,3 +30,4 @@ section.transactions
        li CoinDesk 43 minutes ago
        li Destinia: Bitcoin-Paying Customers Spend More on Travel
        li CEXio 56 minutes ago
+.gradient-border

@@ -3,8 +3,10 @@
     border-radius: 40px;
     text-decoration: none;
     font-size: 14px;
+    overflow: hidden;
     font-family: $main-bold-font !important;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px;
+    transition: 1s;
     &__green {
         color: #f7f9fc;
         padding: 20px 90px 20px 90px;
@@ -17,7 +19,27 @@
         color: #9ecd8c;
         font-size: 16px;
     }
+    &__blue {
+        background-color: #7da3d7;
+        border-radius: 3px;
+        border: none;
+        width: 80%;
+        color: #f7f9fc;
+        font-size: 15px;
+        padding: 23px 90px;
+    }
     &__text__uppercase {
         text-transform: uppercase;
     }
+    span {
+        font-size: 20px;
+        position: relative;
+        left: 7px;
+        top: 3px;
+    }
+}
+
+.button:hover::before {
+    content: '';
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.1);
 }

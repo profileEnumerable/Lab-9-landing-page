@@ -9,15 +9,6 @@
     color: #ffffff;
 }
 
-a:hover,
-a:active,
-a {
-    display: inline-block;
-    vertical-align: top;
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .raiting {
     color: #ed6269;
 }
@@ -26,21 +17,24 @@ a {
     margin-left: auto;
     transition: 0.3s;
     &__link {
+        color: #ffffff;
         margin-right: 20px;
+        padding: 10px 20px;
+        border: 3px solid transparent;
+        border-radius: 30px;
     }
-    &__active__link {
-        border: 2px solid #f7f9ff;
+    &__link:hover {
+        border: 3px solid #f7f9ff;
     }
 }
 
 header {
     background: cadetblue url('../images/bg1.png') center/cover no-repeat;
-    border-bottom: 1px solid;
     height: 100vh;
+    font-family: $main-bold-font;
 }
 
 .logo__text {
-    font-family: $main-bold-font;
     font-size: 30px;
     & span {
         height: 17px;
@@ -59,4 +53,7 @@ header {
 
 .raiting {
     background: #f7f9ff;
+    border-radius: 20px;
+    padding: 7px 15px;
+    font-size: 15px;
 }

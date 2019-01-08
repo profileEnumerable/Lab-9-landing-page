@@ -1,12 +1,12 @@
 .transactions {
-    @include gradient(#404a65, #3b4359);
-    td,
-    th {
-        padding: 10px;
-        border: 3px solid #4d556d;
+    &__container {
+        align-items: flex-start;
     }
-    ul {
-        font-size: 15px;
+    @include gradient(#404a65, #3b4359);
+    tr>td>div {
+        width: 245px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     tr>td:nth-child(1) {
         color: #7a9dd0;
@@ -19,5 +19,6 @@
     }
     ul>li:nth-child(2n) {
         color: #908d98;
+        padding: 14px 0 14px 0;
     }
 }

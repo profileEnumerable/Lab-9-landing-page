@@ -1,0 +1,31 @@
+.form-section {
+    z-index: 100;
+    background: cadetblue url('../images/bg2.png') center/cover no-repeat;
+    height: 590px;
+    h1 {
+        color: #4a4a4a;
+    }
+    .form {
+        &__container {
+            width: 65%;
+            margin: auto;
+        }
+        &__top__img {
+            background-image: url('../images/ribbon.png');
+            height: 10px;
+        }
+        text-align: center;
+        border-radius:3px;
+        background-color: #ffffff;
+        padding: 30px 20px;
+        &__field {
+            margin-bottom: 30px;
+        }
+        &__input {
+            margin: 15px 0 15px 0;
+            padding: 10px;
+            width: 80%;
+            background-color: #f4f7fb;
+        }
+    }
+}

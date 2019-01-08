@@ -1,8 +1,5 @@
 nav.nav
     -var navItems = ['ABOUT','HELP','SIGN UP','SIGN IN']
       each item in navItems 
-       if item === 'SIGN UP'
-        a.nav__link.nav__active__link.button(href="#")=item
-       else
-        a.nav__link.button(href="#")=item
+        a.nav__link(href="#")=item
       

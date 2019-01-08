@@ -18,14 +18,46 @@ ul,
 li {
     list-style-type: none;
     padding: 0;
+    font-size: 15px;
 }
 
-section:not(.hero) {
+section {
     padding: 120px 0 70px 0;
     box-sizing: border-box;
-    border-bottom: 3px solid #4e637c;
 }
 
 table {
     border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 12.5px 7px 12.5px 7px;
+    border: 3px solid #4d556d;
+}
+
+input,
+textarea {
+    border: none;
+    resize: none;
+}
+
+a:hover,
+a:active,
+a {
+    text-decoration: none;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: gray;
+    font-family: $main-default;
+    font-size: 12.5px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: gray;
+    font-family: $main-default;
+    font-size: 12.5px;
 }

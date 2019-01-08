@@ -1,10 +1,10 @@
+@import "../global/mixins.scss";
 @import "../global/fonts.scss";
 @import "../global/vars.scss";
 @import "../global/common.scss";
 @import "../global/base.scss";
 @import "../global/button.scss";
 @import "../global/sprite.scss";
-@import "../global/mixins.scss";
 @import "sections/header.scss";
 @import "sections/hero.scss";
 @import "sections/reliability.scss";
@@ -12,3 +12,5 @@
 @import "sections/conditions.scss";
 @import "sections/growth.scss";
 @import "sections/transactions.scss";
+@import "sections/form.scss";
+@import "sections/footer.scss";
