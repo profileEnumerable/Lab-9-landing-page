@@ -1,23 +1,20 @@
 .button {
     display: inline-block;
     border-radius: 40px;
-    text-decoration: none;
-    font-size: 14px;
+    font-size: 0.8rem;
     overflow: hidden;
     font-family: $main-bold-font !important;
     padding: 10px 25px;
     transition: 1s;
     &__green {
         color: #f7f9fc;
-        padding: 20px 90px 20px 90px;
         background-color: #a3cd8c;
         transition: 0.3s;
-        font-size: 20px;
+        font-size: 1.1rem;
     }
     &__transparent {
         border: 3px solid #a3cd8c;
         color: #9ecd8c;
-        font-size: 16px;
     }
     &__blue {
         background-color: #7da3d7;
@@ -25,18 +22,26 @@
         border: none;
         width: 80%;
         color: #f7f9fc;
-        font-size: 15px;
-        padding: 23px 90px;
     }
     &__text__uppercase {
         text-transform: uppercase;
         color: #f7f9fc;
     }
     span {
-        font-size: 20px;
+        font-size: 1.1rem;
         position: relative;
         left: 7px;
         top: 3px;
+    }
+}
+
+.button {
+    &__green,
+    &__blue {
+        padding: 20px 90px;
+        @media (max-width: 720px) {
+            padding: 15px 40px;
+        }
     }
 }
 

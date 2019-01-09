@@ -1,10 +1,7 @@
 .reliability {
-    @include gradient(#38445f, #475d77);
-    &__container {
-        display: flex;
-        align-items: center;
-    }
-    &__image {
-        object-fit: cover;
+    @media (max-width: 1024px) {
+        .gray__title {
+            padding: 0 150px;
+        }
     }
 }

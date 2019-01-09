@@ -1,12 +1,17 @@
 .transactions {
     &__container {
         align-items: flex-start;
+        @media (max-width: 1024px) {
+            align-items: center;
+        }
     }
-    @include gradient(#404a65, #3b4359);
     tr>td>div {
         width: 245px;
         overflow: hidden;
         text-overflow: ellipsis;
+        @media (max-width: 650px) {
+            width: 150px;
+        }
     }
     tr>td:nth-child(1) {
         color: #7a9dd0;

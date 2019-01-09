@@ -13,7 +13,7 @@
     }
     &__bottom {
         padding: 20px;
-        font-size: 12px;
+        font-size: 0.6rem;
     }
     &__link {
         margin-right: 20px;
@@ -22,5 +22,8 @@
         margin: auto;
         width: 405px;
         padding-bottom: 30px;
+        @media (max-width: 650px) {
+            width: unset;
+        }
     }
 }

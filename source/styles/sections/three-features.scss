@@ -1,14 +1,20 @@
 .features {
-    @include gradient(#465c77, #475c78);
     text-align: center;
+    &__list {
+        @media(min-width: 750px) and (max-width: 1024px) {
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            &>li {
+                width: 40%;
+                margin: 20px;
+            }
+        }
+    }
     &__header {
-        font-size: 19px;
+        font-size: 1.05rem;
     }
     &__list {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
         margin: 0;
         padding: 0;
     }

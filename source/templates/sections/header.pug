@@ -1,16 +1,25 @@
 header.header
+ input.hidden-menu-ticker(type="checkbox" id="hmt")                  
+ label.btn-menu(for="hmt")
+   span.first
+   span.second
+   span.third
+ ul.hidden-menu 
+  -var navItems = ['ABOUT','HELP','SIGN UP','SIGN IN']
+    each item in navItems
+     a(href="#" class="item")
+      li=item
  .container
   .main__header
    .logo
     .logo__text crypto
      span BTC
-   span.course 1 BTC = 32,097.23 
-    i.fas.fa-yen-sign
-   .raiting -0.14%
+   .metrix       
+    span.course 1 BTC = 32,097.23 
+     i.fas.fa-yen-sign
+    span.raiting -0.14%
    include nav
    include hero 
-.gradient-border    
-   
-   
+.gradient-border         
 
-   
+  
