@@ -4,4 +4,9 @@
             padding: 0 150px;
         }
     }
+    @media (max-width: 480px) {
+        .gray__title {
+            padding: 0;
+        }
+    }
 }

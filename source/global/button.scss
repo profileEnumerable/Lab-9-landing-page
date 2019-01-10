@@ -1,7 +1,7 @@
 .button {
     display: inline-block;
     border-radius: 40px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     overflow: hidden;
     font-family: $main-bold-font !important;
     padding: 10px 25px;
@@ -33,6 +33,12 @@
         left: 7px;
         top: 3px;
     }
+    @media (max-width: 480px) {
+        padding: 5px 5px;
+        span {
+            left: 2px;
+        }
+    }
 }
 
 .button {
@@ -47,5 +53,7 @@
 
 .button:hover::before {
     content: '';
+    -webkit-box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.1);
 }
