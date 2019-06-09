@@ -6,16 +6,19 @@
     "dependencies": {
         "font-awesome": "^4.7.0",
         "gulp-v4": "^4.0.0-alpha.5",
-        "normalize.scss": "^0.1.0"
+        "normalize.scss": "^0.1.0",
+        "svgpath": "^2.2.1"
     },
     "devDependencies": {
         "autoprefixer": "^9.4.3",
         "browser-sync": "^2.26.3",
         "gulp": "^4.0.0",
+        "gulp-concat": "^2.6.1",
         "gulp-postcss": "^8.0.0",
         "gulp-pug": "^4.0.1",
         "gulp-rename": "^1.4.0",
         "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
         "gulp.spritesmith": "^6.9.0",
         "rimraf": "^2.6.2"
     },
