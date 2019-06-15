@@ -1,6 +1,5 @@
 .form-section {
-    background: cadetblue url('../images/bg2.png') center/cover no-repeat;
-    height: 590px;
+    background: cadetblue url('../images/bg2.png') center/cover no-repeat;    
     h1 {
         color: #4a4a4a;
     }
@@ -11,7 +10,7 @@
         padding: 30px 20px;
         z-index: 100;
         position: relative;
-        &__container {
+        &__container {            
             width: 65%;
             margin: auto;
         }
@@ -31,10 +30,16 @@
     }
 
     .close-butt{
-        position: absolute;
-        
-        margin: -50px;
+        position: absolute;        
+        margin: -80px 500px;
         background: indianred;
         border-radius: 5px;
+    }
+
+    .fa-arrow-circle-down{
+        color: #f7f9ff;
+        @include center-x();
+        font-size: 60px;
+        margin: -90px 0;
     }
 }

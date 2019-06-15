@@ -1,10 +1,12 @@
 section.form-section
  .container
-  .form__container 
+  a.arrow-down(href="some_page.html" target="_blank")
+   i.fas.fa-arrow-circle-down
+  .form__container.hidden-block 
    .form__top__img
    form(method="post" action="#").form
     h1.header__text CONTACT US
-    .form__field 
+    .form__field
      input.close-butt.button.button__text__uppercase(type="button" value="X")
      input.form__input(type="text" placeholder="NAME")
      input.form__input(type="text" placeholder="EMAIL")

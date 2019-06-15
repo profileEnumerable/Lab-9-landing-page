@@ -1,12 +1,18 @@
-(function(params) {
+(function() {
   var formWorker = {};
+
   var form = document.querySelector(".form__container");
+  var closeFormButt = document.querySelector(".close-butt");
 
-  console.log(form);
+  formWorker.open = function() {
+    form.classList.remove("hidden-block"); //hide form
 
-  formWorker.open = function() {};
+    closeFormButt.addEventListener("click", formWorker.close);
+  };
 
-  formWorker.close = function() {};
-
+  formWorker.close = function() {
+    form.classList.add("hidden-block");
+    closeFormButt.removeEventListener("click", formWorker.close);
+  };
   window.form = formWorker;
 })();
